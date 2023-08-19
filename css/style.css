@@ -152,6 +152,7 @@
 
 /*** Hero Header ***/
 .hero-header {
+    position: relative;
     background: linear-gradient(rgba(13, 41, 26, 0.9), rgba(13, 41, 26, 0.9)), url(../img/bg-hero.jpg);
     background-position: center center;
     background-repeat: no-repeat;
@@ -160,6 +161,21 @@
 
 .hero-header img {
     animation: imgRotate 50s linear infinite;
+}
+
+.hero-header .video-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.hero-header .video-background video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    filter: brightness(0.4) saturate(1.5);
 }
 
 @keyframes imgRotate { 
@@ -210,6 +226,8 @@
 /*** Service ***/
 .service-item {
     box-shadow: 0 0 45px rgba(0, 0, 0, .08);
+    height: 100%;
+    text-align: center;
     transition: .5s;
 }
 
@@ -481,6 +499,10 @@
     color: white !important;
 }
 
+.title img {
+    border-radius: 50px;
+}
+
 .menu-title {
     font-size: 30px;
     font-weight: bold;
@@ -493,4 +515,11 @@
     display: inline-block;
     border-bottom: 1px solid;
     padding: 0 20px;
+}
+
+.personal-image {
+    width: 88.02px;
+    height: 88.02px;
+    object-fit: cover;
+    scale: 3;
 }

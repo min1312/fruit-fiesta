@@ -152,7 +152,10 @@
 
 /*** Hero Header ***/
 .hero-header {
+<<<<<<< HEAD
     position: relative;
+=======
+>>>>>>> main
     background: linear-gradient(rgba(13, 41, 26, 0.9), rgba(13, 41, 26, 0.9)), url(../img/bg-hero.jpg);
     background-position: center center;
     background-repeat: no-repeat;
@@ -163,6 +166,7 @@
     animation: imgRotate 50s linear infinite;
 }
 
+<<<<<<< HEAD
 .hero-header .video-background {
     position: absolute;
     top: 0;
@@ -178,6 +182,8 @@
     filter: brightness(0.4) saturate(1.5);
 }
 
+=======
+>>>>>>> main
 @keyframes imgRotate { 
     100% { 
         transform: rotate(360deg); 
@@ -226,8 +232,11 @@
 /*** Service ***/
 .service-item {
     box-shadow: 0 0 45px rgba(0, 0, 0, .08);
+<<<<<<< HEAD
     height: 100%;
     text-align: center;
+=======
+>>>>>>> main
     transition: .5s;
 }
 
@@ -499,10 +508,13 @@
     color: white !important;
 }
 
+<<<<<<< HEAD
 .title img {
     border-radius: 50px;
 }
 
+=======
+>>>>>>> main
 .menu-title {
     font-size: 30px;
     font-weight: bold;
@@ -515,6 +527,7 @@
     display: inline-block;
     border-bottom: 1px solid;
     padding: 0 20px;
+<<<<<<< HEAD
 }
 
 .personal-image {
@@ -522,4 +535,6 @@
     height: 88.02px;
     object-fit: cover;
     scale: 3;
+=======
+>>>>>>> main
 }
